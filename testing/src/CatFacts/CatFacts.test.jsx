@@ -17,7 +17,7 @@ test("display loading indicator while fetching data", () => {
 
 test("displays error message", async () => {
   server.use(
-    rest.get(`${process.env.REACT_APP_API_ENDPOINT}`, (res, res, ctx) => {
+    rest.get(`${process.env.REACT_APP_API_ENDPOINT}`, (res, req, ctx) => {
       return res(
         ctx.status(500),
         ctx.json({ message: "Internal Server Error" })
