@@ -1,0 +1,15 @@
+// import { render, screen } from "@testing-library/react";
+// import InputJest from "./InputJest";
+
+// test("Testing text input", () => {
+//     render(<InputJest/>)
+
+//     let checkInput = screen.getByRole("textbox");
+//     let checkInputPlaceholder = screen.getByPlaceholderText("Enter Username")
+//     expect(checkInput).toBeInTheDocument();
+//     expect(checkInputPlaceholder).toBeInTheDocument();
+//     expect(checkInput).toHaveAttribute("name", "uname")
+//     expect(checkInput).toHaveAttribute("id", "uname");
+//     expect(checkInput).toHaveAttribute("type", "text");
+// })
+

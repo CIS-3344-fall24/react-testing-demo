@@ -1,0 +1,5 @@
+// import sum from "./Sum";
+
+// test("testing sum function", () => {
+//   expect(sum(10, 10)).toBe(20);
+// });
